@@ -1,0 +1,26 @@
+
+/* Add Style For these 
+    => Body 
+    =>
+
+*/
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+/* Align the Joke text in the middle of the screen Both Horizental and Vertical */
+#wrapper {
+    height: 100vh;
+    border: 1px solid black;
+    position: relative;
+}
+#joke {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#jk_txt {
+    text-align: center;
+}
